@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(14, 3, 3);
+}
+
+.containerOfTwo {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    height: 400px;
+    width: 40%;
+    background-color: maroon;
+    display: flex;
+    border: 2px solid black;
+    color: white;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.clickme {
+    color: rgb(199, 167, 167);
+}
+
+.clickme:hover {
+    color:rgb(78, 105, 78);
+    cursor: pointer;
+}
+.clickme:active {
+    color:rgb(0, 163, 68);
+    cursor: pointer;
+}
+
+
+
